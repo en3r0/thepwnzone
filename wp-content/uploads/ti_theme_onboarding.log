@@ -1,0 +1,15 @@
+[31/Aug/2021:11:51:03] (I): WordPress Instance Info:
+[31/Aug/2021:11:51:03] (I): Home URL : http://thepwnzone.lan
+[31/Aug/2021:11:51:03] (I): Site URL : http://thepwnzone.lan
+[31/Aug/2021:11:51:03] (I): WordPress Version : 5.8
+[31/Aug/2021:11:51:03] (I): Onboarding Version : 1.1.17
+[31/Aug/2021:11:51:03] (I): Multisite : No
+[31/Aug/2021:11:51:03] (I): Server Info : Apache/2.4.38
+[31/Aug/2021:11:51:03] (I): PHP Version : 7.3.29-1~deb10u1
+[31/Aug/2021:11:51:03] (I): HTTPS : No
+[31/Aug/2021:11:51:03] (I): PHP Max Execution Time : 40
+[31/Aug/2021:11:51:03] (I): PHP Max Input Vars : 1000
+[31/Aug/2021:11:51:03] (I): Max Upload Size : 2097152
+[31/Aug/2021:11:51:03] (I): Plugins:
+[31/Aug/2021:11:51:03] (I): [PLUGIN] Gutenberg Blocks and Template Library by Otter : v1.6.9 (ThemeIsle)
+[31/Aug/2021:11:51:03] (I): [PLUGIN] Templates Patterns Collection : v1.1.17 (ThemeIsle)
