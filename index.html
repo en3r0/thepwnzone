@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en-US"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1"><title>The Pwn Zone – LAN Parties in Mansfield, Ohio</title><meta name="robots" content="max-image-preview:large"><link rel="dns-prefetch" href="//fonts.googleapis.com"><link rel="dns-prefetch" href="//s.w.org"><link rel="stylesheet" id="wp-block-library-css" href="https://thepwnzone.com/wp-includes/css/dist/block-library/style.min.css" type="text/css" media="all"><link rel="stylesheet" id="animate-css-css" href="https://thepwnzone.com/wp-content/plugins/otter-blocks/packages/codeinwp/gutenberg-animation/assets/css/animate.min.css" type="text/css" media="all"><link rel="stylesheet" id="themeisle-gutenberg-animation-style-css" href="https://thepwnzone.com/wp-content/plugins/otter-blocks/packages/codeinwp/gutenberg-animation/assets/css/style.css" type="text/css" media="all"><link rel="stylesheet" id="themeisle-block_styles-css" href="https://thepwnzone.com/wp-content/plugins/otter-blocks/packages/codeinwp/gutenberg-blocks/build/style.css" type="text/css" media="all"><link rel="stylesheet" id="font-awesome-5-css" href="https://thepwnzone.com/wp-content/plugins/otter-blocks/assets/fontawesome/css/all.min.css" type="text/css" media="all"><link rel="stylesheet" id="font-awesome-4-shims-css" href="https://thepwnzone.com/wp-content/plugins/otter-blocks/assets/fontawesome/css/v4-shims.min.css" type="text/css" media="all"><link rel="stylesheet" id="neve-style-css" href="https://thepwnzone.com/wp-content/themes/neve/style-main-new.min.css" type="text/css" media="all"><style id="neve-style-inline-css" type="text/css">
+.nv-meta-list li.meta:not(:last-child):after { content:"/" }
+ :root{ --container: 748px;--postWidth:100%; --primaryBtnBg: #000000; --primaryBtnHoverBg: var(--nv-primary-accent); --primaryBtnColor: #ffffff; --secondaryBtnColor: var(--nv-primary-accent); --primaryBtnHoverColor: #ffffff; --secondaryBtnHoverColor: var(--nv-primary-accent);--primaryBtnBorderRadius:3px;--secondaryBtnBorderRadius:3px;--secondaryBtnBorderWidth:3px;--btnPadding:13px 15px;--primaryBtnPadding:13px 15px;--secondaryBtnPadding:10px 12px; --bodyFontFamily: Open Sans; --bodyFontSize: 15px; --bodyLineHeight: 1.6em; --bodyLetterSpacing: 0px; --bodyFontWeight: 400; --bodyTextTransform: none; --headingsFontFamily: Open Sans; --h1FontSize: 45px; --h1FontWeight: 600; --h1LineHeight: 1.3em; --h1LetterSpacing: 0; --h1TextTransform: uppercase; --h2FontSize: 28px; --h2FontWeight: 600; --h2LineHeight: 1.3em; --h2LetterSpacing: 0; --h2TextTransform: uppercase; --h3FontSize: 28px; --h3FontWeight: 600; --h3LineHeight: 1.3em; --h3LetterSpacing: 0; --h3TextTransform: uppercase; --h4FontSize: 0.8em; --h4FontWeight: 700; --h4LineHeight: 1.3em; --h4LetterSpacing: 0; --h4TextTransform: uppercase; --h5FontSize: 20px; --h5FontWeight: 600; --h5LineHeight: 1.3em; --h5LetterSpacing: 0; --h5TextTransform: uppercase; --h6FontSize: 16px; --h6FontWeight: 600; --h6LineHeight: 1.3em; --h6LetterSpacing: 0; --h6TextTransform: uppercase; --formFieldSpacing: 4px;--formFieldBorderWidth:2px;--formFieldBorderRadius:0; --formFieldBgColor: var(--nv-site-bg); --formFieldBorderColor: #dddddd; --formFieldColor: var(--nv-text-color);--formFieldPadding:15px; --formLabelSpacing: 10px; } .has-neve-button-color-color{ color: #000000!important; } .has-neve-button-color-background-color{ background-color: #000000!important; } .single-post-container .alignfull > [class*="__inner-container"], .single-post-container .alignwide > [class*="__inner-container"]{ max-width:718px } .nv-meta-list{ --avatarSize: 20px; } .single .nv-meta-list{ --avatarSize: 20px; } .single h1.entry-title{ --fontSize: 32px; } form input[type="submit"], form button[type="submit"], form *[value*="ubmit"], #comments input[type="submit"]{ background-color:var(--secondaryBtnBg, transparent);color:var(--secondaryBtnColor);padding:var(--secondaryBtnPadding, 7px 12px);border-radius:var(--secondaryBtnBorderRadius, 3px); } form input[type="submit"]:hover, form button[type="submit"]:hover, form *[value*="ubmit"]:hover, #comments input[type="submit"]:hover{ background-color:var(--secondaryBtnHoverBg, transparent);color:var(--secondaryBtnHoverColor); } .nv-post-cover{ --height: 400px;--padding:40px 15px; } .nv-is-boxed.nv-title-meta-wrap{ --padding:40px 15px; --bgColor: var(--nv-dark-bg); } .nv-overlay{ --opacity: 50; } .nv-is-boxed.nv-comments-wrap{ --padding:20px; } .nv-is-boxed.comment-respond{ --padding:20px; } .header-top{ --color: var(--nv-text-color); --bgColor: #f0f0f0; } .header-main{ --color: var(--nv-text-color); --bgColor: var(--nv-site-bg); } .header-bottom{ --color: var(--nv-text-color); --bgColor: #ffffff; } .header-menu-sidebar-bg{ --color: var(--nv-text-color); --bgColor: var(--nv-light-bg); } .header-menu-sidebar{ width: 360px; } .builder-item--logo{ --maxWidth: 40px;--padding:10px 0;--margin:0; } .builder-item--nav-icon,.header-menu-sidebar .close-sidebar-panel .navbar-toggle{ --borderRadius:0; } .builder-item--nav-icon{ --padding:10px 15px;--margin:0; } .builder-item--primary-menu{ --hoverColor: var(--nv-secondary-accent); --activeColor: var(--nv-primary-accent); --spacing: 20px; --height: 25px;--padding:0;--margin:0; --fontSize: 1em; --lineHeight: 1.6; --letterSpacing: 0px; --fontWeight: 500; --textTransform: none; --iconSize: 1em; } .footer-top-inner .row{ grid-template-columns:1fr 1fr 1fr; } .footer-top{ --color: var(--nv-text-color); --bgColor: #ffffff; } .footer-main-inner .row{ grid-template-columns:1fr 1fr 1fr; } .footer-main{ --color: var(--nv-text-color); --bgColor: var(--nv-site-bg); } .footer-bottom-inner .row{ grid-template-columns:1fr 1fr 1fr; } .footer-bottom{ --color: var(--nv-text-color); --bgColor: var(--nv-dark-bg); } .item--inner.builder-item--footer_copyright{ --color: var(--nv-text-dark-bg); } .builder-item--footer_copyright{ --padding:0;--margin:0; --fontSize: 1em; --lineHeight: 1.6; --letterSpacing: 0px; --fontWeight: 500; --textTransform: none; --iconSize: 1em; } @media(min-width: 576px){ :root{ --container: 992px;--postWidth:100%;--btnPadding:13px 15px;--primaryBtnPadding:13px 15px;--secondaryBtnPadding:10px 12px; --bodyFontSize: 16px; --bodyLineHeight: 1.6em; --bodyLetterSpacing: 0px; --h1FontSize: 50px; --h1LineHeight: 1.3em; --h1LetterSpacing: 0; --h2FontSize: 40px; --h2LineHeight: 1.3em; --h2LetterSpacing: 0; --h3FontSize: 28px; --h3LineHeight: 1.3em; --h3LetterSpacing: 0; --h4FontSize: 24px; --h4LineHeight: 1.3em; --h4LetterSpacing: 0; --h5FontSize: 20px; --h5LineHeight: 1.3em; --h5LetterSpacing: 0; --h6FontSize: 16px; --h6LineHeight: 1.3em; --h6LetterSpacing: 0; } .single-post-container .alignfull > [class*="__inner-container"], .single-post-container .alignwide > [class*="__inner-container"]{ max-width:962px } .nv-meta-list{ --avatarSize: 20px; } .single .nv-meta-list{ --avatarSize: 20px; } .single h1.entry-title{ --fontSize: 44px; } .nv-post-cover{ --height: 400px;--padding:60px 30px; } .nv-is-boxed.nv-title-meta-wrap{ --padding:60px 30px; } .nv-is-boxed.nv-comments-wrap{ --padding:30px; } .nv-is-boxed.comment-respond{ --padding:30px; } .header-menu-sidebar{ width: 360px; } .builder-item--logo{ --maxWidth: 48px;--padding:10px 0;--margin:0; } .builder-item--nav-icon{ --padding:10px 15px;--margin:0; } .builder-item--primary-menu{ --spacing: 20px; --height: 25px;--padding:0;--margin:0; --fontSize: 1em; --lineHeight: 1.6; --letterSpacing: 0px; --iconSize: 1em; } .builder-item--footer_copyright{ --padding:0;--margin:0; --fontSize: 1em; --lineHeight: 1.6; --letterSpacing: 0px; --iconSize: 1em; } }@media(min-width: 960px){ :root{ --container: 1170px;--postWidth:100%;--btnPadding:13px 15px;--primaryBtnPadding:13px 15px;--secondaryBtnPadding:10px 12px; --bodyFontSize: 16px; --bodyLineHeight: 27px; --bodyLetterSpacing: 0px; --h1FontSize: 50px; --h1LineHeight: 1.3em; --h1LetterSpacing: 0; --h2FontSize: 40px; --h2LineHeight: 1.3em; --h2LetterSpacing: 0; --h3FontSize: 28px; --h3LineHeight: 1.3em; --h3LetterSpacing: 0; --h4FontSize: 0.8em; --h4LineHeight: 1.3em; --h4LetterSpacing: 0; --h5FontSize: 20px; --h5LineHeight: 1.3em; --h5LetterSpacing: 0; --h6FontSize: 16px; --h6LineHeight: 1.3em; --h6LetterSpacing: 0; } body:not(.single):not(.archive):not(.blog):not(.search) .neve-main > .container .col, body.post-type-archive-course .neve-main > .container .col, body.post-type-archive-llms_membership .neve-main > .container .col{ max-width: 100%; } body:not(.single):not(.archive):not(.blog):not(.search) .nv-sidebar-wrap, body.post-type-archive-course .nv-sidebar-wrap, body.post-type-archive-llms_membership .nv-sidebar-wrap{ max-width: 0%; } .neve-main > .archive-container .nv-index-posts.col{ max-width: 100%; } .neve-main > .archive-container .nv-sidebar-wrap{ max-width: 0%; } .neve-main > .single-post-container .nv-single-post-wrap.col{ max-width: 70%; } .single-post-container .alignfull > [class*="__inner-container"], .single-post-container .alignwide > [class*="__inner-container"]{ max-width:789px } .container-fluid.single-post-container .alignfull > [class*="__inner-container"], .container-fluid.single-post-container .alignwide > [class*="__inner-container"]{ max-width:calc(70% + 15px) } .neve-main > .single-post-container .nv-sidebar-wrap{ max-width: 30%; } .nv-meta-list{ --avatarSize: 20px; } .single .nv-meta-list{ --avatarSize: 20px; } .blog .blog-entry-title, .archive .blog-entry-title{ --fontSize: 40px; } .single h1.entry-title{ --fontSize: 48px; } .nv-post-cover{ --height: 400px;--padding:60px 40px; } .nv-is-boxed.nv-title-meta-wrap{ --padding:60px 40px; } .nv-is-boxed.nv-comments-wrap{ --padding:40px; } .nv-is-boxed.comment-respond{ --padding:40px; } .header-menu-sidebar{ width: 360px; } .builder-item--logo{ --maxWidth: 48px;--padding:10px 0;--margin:0; } .builder-item--nav-icon{ --padding:10px 15px;--margin:0; } .builder-item--primary-menu{ --spacing: 20px; --height: 25px;--padding:0;--margin:0; --fontSize: 1em; --lineHeight: 1.6; --letterSpacing: 0px; --iconSize: 1em; } .builder-item--footer_copyright{ --padding:0;--margin:0; --fontSize: 1em; --lineHeight: 1.6; --letterSpacing: 0px; --iconSize: 1em; } }:root{--nv-primary-accent:#6441a5;--nv-secondary-accent:#efb900;--nv-site-bg:#ffffff;--nv-light-bg:#eaeaea;--nv-dark-bg:#000000;--nv-text-color:#000000;--nv-text-dark-bg:#ffffff;--nv-c-1:#77b978;--nv-c-2:#f37262;--nv-fallback-ff:Arial, Helvetica, sans-serif;}
+ #content.neve-main .container .alignfull > [class*="__inner-container"],#content.neve-main .alignwide > [class*="__inner-container"]{ max-width: 718px; } @media(min-width: 576px){ #content.neve-main .container .alignfull > [class*="__inner-container"],#content.neve-main .alignwide > [class*="__inner-container"]{ max-width: 962px; } } @media(min-width: 960px) { #content.neve-main .container .alignfull > [class*="__inner-container"],#content.neve-main .container .alignwide > [class*="__inner-container"]{ max-width: 1140px; } #content.neve-main > .container > .row > .col{ max-width: 100%; } #content.neve-main > .container > .row > .nv-sidebar-wrap, #content.neve-main > .container > .row > .nv-sidebar-wrap.shop-sidebar { max-width: 0%; } } 
+</style><link rel="stylesheet" id="themeisle-gutenberg-post-86-1630423480.css-css" href="https://thepwnzone.com/wp-content/uploads/themeisle-gutenberg/post-86-1630423480.css" type="text/css" media="all"><link rel="stylesheet" id="themeisle-gutenberg-google-fonts-86-css" href="//fonts.googleapis.com/css?family=Open+Sans%3A700&ver=1.6.9" type="text/css" media="all"><link rel="stylesheet" id="neve-google-font-open-sans-css" href="//fonts.googleapis.com/css?family=Open+Sans%3A400%2C600%2C700%2C500&display=swap&ver=3.0.2" type="text/css" media="all"><style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style><style type="text/css" id="wp-custom-css">
+			/* Contact form */
+div.wpforms-container-full .wpforms-form input[type=text],
+div.wpforms-container-full .wpforms-form input[type=email]{
+	padding: 25px 15px;
+	background-color: #f7f7f7;
+	font-size: 14px;
+	border-color:#f7f7f7;
+	border-radius:0px;
+}
+div.wpforms-container-full .wpforms-form textarea.wpforms-field-medium{
+	padding: 15px;
+	background-color:#f7f7f7;
+	font-size: 14px;
+	border-color:#f7f7f7;
+	border-radius:0px;
+}
+div.wpforms-container-full .wpforms-form .wpforms-field-label{
+	font-size:0.8em;
+	font-weight:700;
+	color:#ffffff;
+	text-transform:uppercase;
+	margin-bottom:20px;
+}
+div.wpforms-container-full .wpforms-form .wpforms-required-label{
+	color:#ffffff;
+}
+/* Contact form - Button */
+div.wpforms-container-full .wpforms-form button[type=submit] {
+	background-color: var(--nv-primary-accent);
+	font-size:0.8em;
+	color: #ffffff;
+	text-transform: uppercase;
+	padding: 20px 40px;
+	font-weight:600;
+	border: 1px solid #ffffff;
+	border-radius:3px;
+}
+div.wpforms-container-full .wpforms-form button[type=submit]:hover {
+	background-color: var(--nv-secondary-accent);
+	border: 1px solid #fec503;
+}
+		</style></head><body class="home page-template page-template-page-templates page-template-template-pagebuilder-full-width page-template-page-templatestemplate-pagebuilder-full-width-php page page-id-86  nv-blog-default nv-sidebar-full-width menu_sidebar_slide_left" id="neve_body">
+<div class="wrapper">
+	
+	<header class="header" role="banner" next-page-hide><a class="neve-skip-link show-on-focus" href="#content" tabindex="0">
+			Skip to content		</a>
+		<div id="header-grid" class="hfg_header site-header">
+	
+<nav class="header--row header-main hide-on-mobile hide-on-tablet layout-full-contained nv-navbar header--row" data-row-id="main" data-show-on="desktop"><div class="header--row-inner header-main-inner">
+		<div class="container">
+			<div class="row row--wrapper" data-section="hfg_header_layout_main">
+				<div class="hfg-slot left"><div class="builder-item desktop-left"><div class="item--inner builder-item--logo" data-section="title_tagline" data-item-id="logo">
+	<div class="site-logo">
+	<a class="brand" href="https://thepwnzone.com/" title="The Pwn Zone" aria-label="The Pwn Zone"><div class="nv-title-tagline-wrap"><p class="site-title">The Pwn Zone</p><small>LAN Parties in Mansfield, Ohio</small></div></a></div>
+
+	</div>
+
+</div></div><div class="hfg-slot right single"><div class="builder-item has-nav"><div class="item--inner builder-item--primary-menu has_menu" data-section="header_menu_primary" data-item-id="primary-menu">
+	<div class="nv-nav-wrap">
+	<div role="navigation" class="style-border-bottom nav-menu-primary" aria-label="Primary Menu">
+
+		<ul id="nv-primary-navigation-main" class="primary-menu-ul nav-ul"><li id="menu-item-87" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-86 current_page_item menu-item-87"><a href="https://thepwnzone.com/" aria-current="page">Home</a></li>
+</ul></div>
+</div>
+
+	</div>
+
+</div></div>							</div>
+		</div>
+	</div>
+</nav><nav class="header--row header-main hide-on-desktop layout-full-contained nv-navbar header--row" data-row-id="main" data-show-on="mobile"><div class="header--row-inner header-main-inner">
+		<div class="container">
+			<div class="row row--wrapper" data-section="hfg_header_layout_main">
+				<div class="hfg-slot left"><div class="builder-item tablet-left mobile-left"><div class="item--inner builder-item--logo" data-section="title_tagline" data-item-id="logo">
+	<div class="site-logo">
+	<a class="brand" href="https://thepwnzone.com/" title="The Pwn Zone" aria-label="The Pwn Zone"><div class="nv-title-tagline-wrap"><p class="site-title">The Pwn Zone</p><small>LAN Parties in Mansfield, Ohio</small></div></a></div>
+
+	</div>
+
+</div></div><div class="hfg-slot right single"><div class="builder-item tablet-left mobile-left"><div class="item--inner builder-item--nav-icon" data-section="header_menu_icon" data-item-id="nav-icon">
+	<div class="menu-mobile-toggle item-button navbar-toggle-wrapper">
+	<button class="navbar-toggle" aria-label="
+			Navigation Menu			">
+				<div class="bars">
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+		</div>
+		<span class="screen-reader-text">Toggle Navigation</span>
+	</button>
+</div> 
+
+
+	</div>
+
+</div></div>							</div>
+		</div>
+	</div>
+</nav><div id="header-menu-sidebar" class="header-menu-sidebar menu-sidebar-panel slide_left">
+	<div id="header-menu-sidebar-bg" class="header-menu-sidebar-bg">
+		<div class="close-sidebar-panel navbar-toggle-wrapper">
+			<button class="navbar-toggle active" aria-label="
+				Navigation Menu				">
+				<div class="bars">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</div>
+				<span class="screen-reader-text">
+				Toggle Navigation					</span>
+			</button>
+		</div>
+		<div id="header-menu-sidebar-inner" class="header-menu-sidebar-inner ">
+			<div class="builder-item has-nav"><div class="item--inner builder-item--primary-menu has_menu" data-section="header_menu_primary" data-item-id="primary-menu">
+	<div class="nv-nav-wrap">
+	<div role="navigation" class="style-border-bottom nav-menu-primary" aria-label="Primary Menu">
+
+		<ul id="nv-primary-navigation-sidebar" class="primary-menu-ul nav-ul"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-86 current_page_item menu-item-87"><a href="https://thepwnzone.com/" aria-current="page">Home</a></li>
+</ul></div>
+</div>
+
+	</div>
+
+</div>		</div>
+	</div>
+</div>
+<div class="header-menu-sidebar-overlay"></div>
+
+</div>
+	</header><main id="content" class="neve-main" role="main"><div class="wp-block-themeisle-blocks-advanced-columns alignfull has-1-columns has-desktop-equal-layout has-tablet-equal-layout has-mobile-equal-layout has-default-gap has-vertical-unset" id="wp-block-themeisle-blocks-advanced-columns-427f53fe"><div class="wp-block-themeisle-blocks-advanced-columns-overlay"></div><div class="innerblocks-wrap">
+<div class="wp-block-themeisle-blocks-advanced-column" id="wp-block-themeisle-blocks-advanced-column-e917b60f">
+<h2 id="wp-block-themeisle-blocks-advanced-heading-085cae8d" class="wp-block-themeisle-blocks-advanced-heading wp-block-themeisle-blocks-advanced-heading-085cae8d">Welcome to The Pwn Z0ne</h2>
+
+
+
+<p class="has-text-align-center has-white-color has-text-color" style="font-size:27px"> The Best LAN Parties in Mansfield, Ohio </p>
+
+
+
+<div style="height:24px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<div id="wp-block-themeisle-blocks-button-group-f24bae65" class="wp-block-themeisle-blocks-button-group wp-block-buttons align-center">
+<div id="wp-block-themeisle-blocks-button-dbf25510" class="wp-block-themeisle-blocks-button wp-block-button"><a href="#wp-block-themeisle-blocks-advanced-heading-7500b298" target="_self" rel="noopener noreferrer" class="wp-block-button__link"><span>Upcoming LANs</span></a></div>
+</div>
+</div>
+</div></div>
+
+
+
+<p class="has-white-color has-text-color">The Pwn Z0ne was birthed in 2006 with a love for people, and a love for gaming.</p>
+
+
+
+<div class="wp-block-themeisle-blocks-advanced-columns has-1-columns has-desktop-equal-layout has-tablet-equal-layout has-mobile-equal-layout has-default-gap has-vertical-unset" id="wp-block-themeisle-blocks-advanced-columns-62386cc2"><div class="wp-block-themeisle-blocks-advanced-columns-overlay"></div><div class="innerblocks-wrap">
+<div class="wp-block-themeisle-blocks-advanced-column" id="wp-block-themeisle-blocks-advanced-column-bc41f929">
+<h2 id="wp-block-themeisle-blocks-advanced-heading-bc36dd7f" class="wp-block-themeisle-blocks-advanced-heading wp-block-themeisle-blocks-advanced-heading-bc36dd7f">TELL ME MORE</h2>
+
+
+
+<h4 id="wp-block-themeisle-blocks-advanced-heading-030f1158" class="wp-block-themeisle-blocks-advanced-heading wp-block-themeisle-blocks-advanced-heading-030f1158"></h4>
+</div>
+</div></div>
+
+
+
+<div class="wp-block-themeisle-blocks-advanced-columns alignfull has-3-columns has-desktop-equal-layout has-tablet-equal-layout has-mobile-collapsedRows-layout has-default-gap has-vertical-unset" id="wp-block-themeisle-blocks-advanced-columns-31e21002"><div class="wp-block-themeisle-blocks-advanced-columns-overlay"></div><div class="innerblocks-wrap">
+<div class="wp-block-themeisle-blocks-advanced-column" id="wp-block-themeisle-blocks-advanced-column-c9be9e5d">
+<p class="wp-block-themeisle-blocks-font-awesome-icons" id="wp-block-themeisle-blocks-font-awesome-icons-1e4d367e"><span class="wp-block-themeisle-blocks-font-awesome-icons-container"><i class="fas fa-globe-africa"></i></span></p>
+
+
+
+<h3 id="wp-block-themeisle-blocks-advanced-heading-0844e979" class="wp-block-themeisle-blocks-advanced-heading wp-block-themeisle-blocks-advanced-heading-0844e979">PC / Console </h3>
+
+
+
+<p class="has-text-align-center has-neve-text-color-color has-text-color">We love all the gaming modes! Console, PC, maybe even analog games.<br><br></p>
+</div>
+
+
+
+<div class="wp-block-themeisle-blocks-advanced-column" id="wp-block-themeisle-blocks-advanced-column-6973b905">
+<p class="wp-block-themeisle-blocks-font-awesome-icons" id="wp-block-themeisle-blocks-font-awesome-icons-23e6330f"><span class="wp-block-themeisle-blocks-font-awesome-icons-container"><i class="fas fa-male"></i></span></p>
+
+
+
+<h3 id="wp-block-themeisle-blocks-advanced-heading-4ece72b2" class="wp-block-themeisle-blocks-advanced-heading wp-block-themeisle-blocks-advanced-heading-4ece72b2"> In Person</h3>
+
+
+
+<p class="has-text-align-center has-neve-text-color-color has-text-color">We aim for local, in person gaming first and foremost!<br></p>
+</div>
+
+
+
+<div class="wp-block-themeisle-blocks-advanced-column" id="wp-block-themeisle-blocks-advanced-column-dbae4f08">
+<p class="wp-block-themeisle-blocks-font-awesome-icons" id="wp-block-themeisle-blocks-font-awesome-icons-46b6032e"><span class="wp-block-themeisle-blocks-font-awesome-icons-container"><i class="fas fa-hippo"></i></span></p>
+
+
+
+<h3 id="wp-block-themeisle-blocks-advanced-heading-dc433383" class="wp-block-themeisle-blocks-advanced-heading wp-block-themeisle-blocks-advanced-heading-dc433383"> Fun </h3>
+
+
+
+<p class="has-text-align-center has-neve-text-color-color has-text-color"> We have competitions, but we keep everything focused on fun.</p>
+</div>
+</div></div>
+
+
+
+<div class="wp-block-themeisle-blocks-advanced-columns alignfull has-1-columns has-desktop-equal-layout has-tablet-equal-layout has-mobile-equal-layout has-default-gap has-vertical-unset" id="wp-block-themeisle-blocks-advanced-columns-57f0782d"><div class="wp-block-themeisle-blocks-advanced-columns-overlay"></div><div class="innerblocks-wrap">
+<div class="wp-block-themeisle-blocks-advanced-column" id="wp-block-themeisle-blocks-advanced-column-4a831fab">
+<h2 id="wp-block-themeisle-blocks-advanced-heading-7500b298" class="wp-block-themeisle-blocks-advanced-heading wp-block-themeisle-blocks-advanced-heading-7500b298">OUR NEXT LAN</h2>
+
+
+
+<h4 id="wp-block-themeisle-blocks-advanced-heading-a7f22922" class="wp-block-themeisle-blocks-advanced-heading wp-block-themeisle-blocks-advanced-heading-a7f22922"><strong>It’s coming!</strong><br></h4>
+</div>
+</div></div>
+
+
+
+<div class="wp-block-themeisle-blocks-advanced-columns alignfull has-1-columns has-desktop-equal-layout has-tablet-equal-layout has-mobile-equal-layout has-narrow-gap has-vertical-unset" id="wp-block-themeisle-blocks-advanced-columns-a03d85c1"><div class="wp-block-themeisle-blocks-advanced-columns-overlay"></div><div class="innerblocks-wrap">
+<div class="wp-block-themeisle-blocks-advanced-column" id="wp-block-themeisle-blocks-advanced-column-0e70f4bf">
+<h3 id="wp-block-themeisle-blocks-advanced-heading-5f9d01f4" class="wp-block-themeisle-blocks-advanced-heading wp-block-themeisle-blocks-advanced-heading-5f9d01f4">The Pwn Z0ne – High School</h3>
+
+
+
+<p class="has-white-color has-text-color">The Pwn Z0ne – High School is a LAN Party event that is restricted to high school students only, and you MUST register in advance! Other than that, it is LAN as usual!<br><br><strong>Details:</strong><br><strong>When</strong>: Friday, October 1st at 5:00pm – Saturday October 2nd at 8:00am <br><strong>Where</strong>: Mosaic Church – 296 Park Ave W, Mansfield, OH 44906<br><strong>Cost</strong>: $10.00 at the door (No Readmittance)<br>Cost will include gameplay, pizza, and a chance at prizes<br><br>There will be an open concession stand with snacks and drinks for purchase.<br><br>Drugs and Alcohol will not be permitted at this event.<br><br></p>
+
+
+
+<div id="wp-block-themeisle-blocks-button-group-dc9cb545" class="wp-block-themeisle-blocks-button-group wp-block-buttons align-center">
+<div id="wp-block-themeisle-blocks-button-8fc44d59" class="wp-block-themeisle-blocks-button wp-block-button is-style-outline"><a href="https://mosaicmansfield.churchcenter.com/registrations/events/975440" target="_blank" rel="noopener noreferrer" class="wp-block-button__link"><span>REGISTER</span></a></div>
+</div>
+</div>
+</div></div>
+
+
+
+<div class="wp-block-themeisle-blocks-advanced-columns alignfull has-2-columns has-desktop-twoOne-layout has-tablet-equal-layout has-mobile-collapsedRows-layout has-default-gap has-vertical-unset" id="wp-block-themeisle-blocks-advanced-columns-dc6d7bcb"><div class="wp-block-themeisle-blocks-advanced-columns-overlay"></div><div class="innerblocks-wrap">
+<div class="wp-block-themeisle-blocks-advanced-column" id="wp-block-themeisle-blocks-advanced-column-273d9f69">
+<h3 id="wp-block-themeisle-blocks-advanced-heading-deb7c373" class="wp-block-themeisle-blocks-advanced-heading wp-block-themeisle-blocks-advanced-heading-deb7c373">DO YOU WANT TO VOLUNTEER?</h3>
+</div>
+
+
+
+<div class="wp-block-themeisle-blocks-advanced-column" id="wp-block-themeisle-blocks-advanced-column-bb76f275">
+<div id="wp-block-themeisle-blocks-button-group-dae31ca2" class="wp-block-themeisle-blocks-button-group wp-block-buttons align-center">
+<div id="wp-block-themeisle-blocks-button-ac3b0d38" class="wp-block-themeisle-blocks-button wp-block-button"><a href="#wp-block-themeisle-blocks-advanced-heading-62af4a07" target="_self" rel="noopener noreferrer" class="wp-block-button__link"><span>Get in touch </span></a></div>
+</div>
+</div>
+</div></div>
+
+
+
+<div class="wp-block-themeisle-blocks-advanced-columns alignfull has-2-columns has-desktop-equal-layout has-tablet-equal-layout has-mobile-collapsedRows-layout has-default-gap has-vertical-center" id="wp-block-themeisle-blocks-advanced-columns-b9f55380"><div class="wp-block-themeisle-blocks-advanced-columns-overlay"></div><div class="innerblocks-wrap">
+<div class="wp-block-themeisle-blocks-advanced-column" id="wp-block-themeisle-blocks-advanced-column-a2fe9964">
+<figure class="wp-block-image size-large"><img loading="lazy" width="1024" height="768" src="https://thepwnzone.com/wp-content/uploads/2021/08/DSC07757-1024x768.jpg" alt="" class="wp-image-225" srcset="https://thepwnzone.com/wp-content/uploads/2021/08/DSC07757-1024x768.jpg 1024w,https://thepwnzone.com/wp-content/uploads/2021/08/DSC07757-300x225.jpg 300w,https://thepwnzone.com/wp-content/uploads/2021/08/DSC07757-768x576.jpg 768w,https://thepwnzone.com/wp-content/uploads/2021/08/DSC07757-1536x1152.jpg 1536w,https://thepwnzone.com/wp-content/uploads/2021/08/DSC07757-2048x1536.jpg 2048w" sizes="(max-width: 1024px) 100vw, 1024px"></figure></div>
+
+
+
+<div class="wp-block-themeisle-blocks-advanced-column" id="wp-block-themeisle-blocks-advanced-column-506cf6c7">
+<h2 id="wp-block-themeisle-blocks-advanced-heading-df2e022d" class="wp-block-themeisle-blocks-advanced-heading wp-block-themeisle-blocks-advanced-heading-df2e022d">ABOUT The Pwn Z0ne</h2>
+
+
+
+<p class="has-white-color has-text-color">The Pwn Z0ne was birthed in 2006 with a love for people, and a love for gaming.</p>
+</div>
+</div></div>
+
+
+
+<div class="wp-block-themeisle-blocks-advanced-columns alignfull has-2-columns has-desktop-equal-layout has-tablet-equal-layout has-mobile-collapsedRows-layout has-default-gap has-vertical-unset" id="wp-block-themeisle-blocks-advanced-columns-faf635ef"><div class="wp-block-themeisle-blocks-advanced-columns-overlay"></div><div class="innerblocks-wrap">
+<div class="wp-block-themeisle-blocks-advanced-column" id="wp-block-themeisle-blocks-advanced-column-bb237b6e">
+<h2 id="wp-block-themeisle-blocks-advanced-heading-62af4a07" class="wp-block-themeisle-blocks-advanced-heading wp-block-themeisle-blocks-advanced-heading-62af4a07">CONTACT</h2>
+
+
+
+<p>Got something you want to say?</p>
+
+
+
+<div id="wp-block-themeisle-blocks-button-group-838f6aa8" class="wp-block-themeisle-blocks-button-group wp-block-buttons">
+<div id="wp-block-themeisle-blocks-button-42e91191" class="wp-block-themeisle-blocks-button wp-block-button"><a target="_self" rel="noopener noreferrer" class="wp-block-button__link"><span></span></a></div>
+</div>
+</div>
+
+
+
+<div class="wp-block-themeisle-blocks-advanced-column" id="wp-block-themeisle-blocks-advanced-column-78465469">
+<p class="has-white-color has-text-color">Shoot an email to:<br><br>montgomery[DOT]dustin[AT]gmail[DOT]com</p>
+</div>
+</div></div>
+
+
+
+<p></p>
+
+</main><footer class="site-footer" id="site-footer" next-page-hide><div class="hfg_footer">
+		<div class="footer--row footer-bottom layout-full-contained" id="cb-row--footer-bottom" data-row-id="bottom" data-show-on="desktop">
+	<div class="footer--row-inner footer-bottom-inner footer-content-wrap">
+		<div class="container">
+			<div class="hfg-grid nv-footer-content hfg-grid-bottom row--wrapper row " data-section="hfg_footer_layout_bottom">
+				<div class="hfg-slot left"></div><div class="hfg-slot c-left single hfg-item-v-middle"><div class="builder-item desktop-center tablet-left mobile-left"><div class="item--inner builder-item--footer_copyright" data-section="footer_copyright" data-item-id="footer_copyright">
+	<div class="component-wrap">
+	<p><a href="https://themeisle.com/themes/neve/" rel="nofollow">Neve</a> | Powered by <a href="http://wordpress.org" rel="nofollow">WordPress</a></p></div>
+
+	</div>
+
+</div></div><div class="hfg-slot center"></div>							</div>
+		</div>
+	</div>
+</div>
+
+	</div>
+</footer></div>
+<script type="text/javascript" src="https://thepwnzone.com/wp-includes/js/dist/vendor/regenerator-runtime.min.js" id="regenerator-runtime-js"></script><script type="text/javascript" src="https://thepwnzone.com/wp-includes/js/dist/vendor/wp-polyfill.min.js" id="wp-polyfill-js"></script><script type="text/javascript" src="https://thepwnzone.com/wp-content/plugins/otter-blocks/packages/codeinwp/gutenberg-animation/build/frontend.js" id="themeisle-gutenberg-animation-frontend-js"></script><script type="text/javascript" id="neve-script-js-extra">
+/* <![CDATA[ */
+var NeveProperties = {"ajaxurl":"https:\/\/thepwnzone.com\/wp-admin\/admin-ajax.php","nonce":"fa15a25d1a","isRTL":"","isCustomize":""};
+/* ]]> */
+</script><script type="text/javascript" src="https://thepwnzone.com/wp-content/themes/neve/assets/js/build/modern/frontend.js" id="neve-script-js" async></script></body></html>
