@@ -1,0 +1,3 @@
+.control-wrap {width: 100%;}
+.has-media-queries .control-wrap {display: none;width: 100%;}
+.has-media-queries .control-wrap.active {display: block;}
